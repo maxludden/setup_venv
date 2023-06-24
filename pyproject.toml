@@ -1,0 +1,11 @@
+
+[project]
+name = "setup_venv"
+version = "0.1.0"
+description = "Setup Virtual Environment, initiate a PDM Project, add common dependencies, and update VS Code Settings"
+authors = [
+    {name = "maxludden", email = "dev@maxludden.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+license = {text = "MIT"}
