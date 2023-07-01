@@ -1,12 +1,13 @@
 {
+    "python.defaultInterpreterPath": "/Users/maxludden/dev/venvs/setup_venv/bin/python",
+	"python.pythonPath": "/Users/maxludden/dev/venvs/setup_venv/bin/python",
     "git.enableSmartCommit": true,
     "python.venvFolders": [
+      "~/dev/venvs/",
       "~/.config/.pyenv/plugins/pyenv-virtualenvwrapper",
       "~/.config/.pyenv/versions",
-      "~/dev/venvs/"
     ],
     "python.venvPath": "~/dev/venvs",
-    "python.pythonPath": "/Users/maxludden/dev/venvs/maxgradient/bin/python",
     "cSpell.userWords": [
       "greylock",
       "maxbook",
@@ -160,7 +161,6 @@
     },
     "remote.tunnels.access.hostNameOverride": "maxbook",
     "editor.colorDecoratorsLimit": 800,
-    "python.defaultInterpreterPath": "/Users/maxludden/dev/venvs/maxgradient/bin/python",
     "explorer.confirmDragAndDrop": false,
     "errorLens.excludeBySource": [
       "Pylint(F0002:astroid-error)"
@@ -530,28 +530,6 @@
     },
     "[css]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "vscode-color-picker.languages": [
-      "json",
-      "jsonc",
-      "yaml",
-      "html",
-      "markdown",
-      "css",
-      "python",
-      "javascript",
-      "typescript"
-    ],
-    "colorize.colorized_variables": [
-      "LESS",
-      "CSS",
-      "SASS",
-      "STYLUS"
-    ],
-    "editor.semanticTokenColorCustomizations": {
-        "rules": {
-          "comment": "#575757"
-        }
     },
     "editor.fontFamily": "MesloLGS NF, Menlo, Monaco, 'Courier New', monospace",
     "github.copilot.advanced": {},
