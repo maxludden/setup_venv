@@ -6,6 +6,12 @@ description = "Setup Virtual Environment, initiate a PDM Project, add common dep
 authors = [
     {name = "maxludden", email = "dev@maxludden.com"},
 ]
-dependencies = []
+dependencies = [
+    "sh>=2.0.4",
+    "rich>=13.4.2",
+    "maxgradient>=0.1.4",
+    "virtualenv>=20.23.1",
+    "typer[all]>=0.9.0",
+]
 requires-python = ">=3.10"
 license = {text = "MIT"}

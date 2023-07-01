@@ -8,6 +8,59 @@
       "~/.config/.pyenv/versions",
     ],
     "python.venvPath": "~/dev/venvs",
+    "git.ignoredRepositories": [
+		"/Users/maxludden/.vscode/extensions/stepsize.stepsize-1.0.15/resources/demo-repository"
+	],
+	"[terminal]": { 
+		"external.osxExec": "iTerm.app",
+		"integrated.copyOnSelection": true,
+		"integrated.defaultProfile.osx": "zsh",
+		"integrated.fontFamily": "MesloLGS NF",
+		"integrated.rightClickBehavior": "paste",
+		"integrated.bellDuration": 10000,
+		"integrated.cursorWidth": 1000,
+		"integrated.scrollback": 10000,
+		"integrated.persistentSessionScrollback": 10000,
+		"integrated.env.osx": {
+			"FIG_NEW_SESSION": "1"
+		},
+		"integrated.automationProfile.windows": null,
+		"external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe -d Ubuntu",
+		"integrated.profiles.windows": {
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": "${env:windir}\\System32\\cmd.exe",
+				"args": [],
+				"icon": "terminal-cmd"
+			},
+			"Ubuntu": {
+				"path": "C:\\WINDOWS\\System32\\wsl.exe",
+				"args": [
+				"-d",
+				"Ubuntu"
+				]
+			}
+		},
+	},
+    "syntax.highlightLanguages": [
+      "html",
+      "c",
+      "cpp",
+      "python",
+      "typescript",
+      "typescriptreact",
+      "javascript",
+      "go",
+      "rust",
+      "php",
+      "ruby",
+      "shellscript",
+      "ocaml",
+      "lua"
+    ],
     "cSpell.userWords": [
       "greylock",
       "maxbook",
@@ -40,46 +93,16 @@
       "editor.trimAutoWhitespace": true,
       "editor.codeActionsOnSave": {
         "source.organizeImports": true
-      }
-    },
-    "git.ignoredRepositories": [
-      "/Users/maxludden/.vscode/extensions/stepsize.stepsize-1.0.15/resources/demo-repository"
-    ],
-    "terminal.integrated.env.osx": {
-      "FIG_NEW_SESSION": "1"
+      },
+	  "diagnostics.sourceMapsEnabled": true,
     },
     "editor.inlineSuggest.enabled": true,
     "editor.accessibilitySupport": "off",
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.rightClickBehavior": "paste",
-    "syntax.highlightLanguages": [
-      "html",
-      "c",
-      "cpp",
-      "python",
-      "typescript",
-      "typescriptreact",
-      "javascript",
-      "go",
-      "rust",
-      "php",
-      "ruby",
-      "shellscript",
-      "ocaml",
-      "lua"
-    ],
     "[jsonc]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "colorHelper.resident": true,
     "workbench.colorTheme": "Dracula",
-    "terminal.integrated.bellDuration": 10000,
-    "terminal.integrated.cursorWidth": 1000,
-    "terminal.integrated.scrollback": 10000,
-    "terminal.integrated.persistentSessionScrollback": 10000,
     // "python.logging.level": "debug",
     "git.confirmSync": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -89,28 +112,7 @@
     "[yaml]": {
       "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "python.diagnostics.sourceMapsEnabled": true,
     "files.autoSave": "afterDelay",
-    "terminal.integrated.automationProfile.windows": null,
-    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe -d Ubuntu",
-    "terminal.integrated.profiles.windows": {
-      "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
-      },
-      "Command Prompt": {
-        "path": "${env:windir}\\System32\\cmd.exe",
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "Ubuntu": {
-        "path": "C:\\WINDOWS\\System32\\wsl.exe",
-        "args": [
-          "-d",
-          "Ubuntu"
-        ]
-      }
-    },
     "cSpell.ignoreWords": [
       "ARGB",
       "HEXA",
